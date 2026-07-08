@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  rive: ^0.14.0-dev.9
+  rive: ^0.14.9
 
 dev_dependencies:
   flutter_test:

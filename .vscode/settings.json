@@ -8,5 +8,6 @@
     "**/CVS": true,
     "**/node_modules": true
   },
-  "hide-files.files": []
+  "hide-files.files": [],
+  "dart.flutterSdkPath": ".fvm/versions/3.44.0"
 }

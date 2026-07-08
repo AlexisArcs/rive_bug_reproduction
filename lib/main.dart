@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
@@ -47,7 +49,7 @@ class _AvatarScreenState extends State<AvatarScreen> {
 
     File.asset(
       'anims/example_sound_issue_report.riv',
-      riveFactory: Factory.rive,
+      riveFactory: Platform.isAndroid ? Factory.flutter : Factory.rive,
     ).then((file) {
       setState(() {
         riveFile = file;
